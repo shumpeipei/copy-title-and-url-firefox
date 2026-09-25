@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Background -->
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#bg-grad)" filter="url(#shadow)"/>
+
+  <!-- Back Clipboard/Page -->
+  <rect x="28" y="26" width="56" height="74" rx="8" fill="#ffffff" fill-opacity="0.25"/>
+
+  <!-- Front Page/Card -->
+  <rect x="36" y="34" width="56" height="74" rx="8" fill="#ffffff" filter="url(#shadow)"/>
+
+  <!-- Top Clip/Header on Front Card -->
+  <rect x="52" y="30" width="24" height="8" rx="4" fill="#64748b"/>
+
+  <!-- Content Lines representing Title & URL -->
+  <!-- Line 1: Page Title (Dark/Bold) -->
+  <rect x="46" y="52" width="36" height="6" rx="3" fill="#1e293b"/>
+  <!-- Line 2: Page Title Sub/Continued -->
+  <rect x="46" y="64" width="24" height="5" rx="2.5" fill="#64748b"/>
+
+  <!-- Divider / Link Accent -->
+  <!-- Line 3: URL Line (Accent blue) -->
+  <rect x="46" y="77" width="32" height="5" rx="2.5" fill="#2563eb"/>
+  <!-- Small link symbol dots -->
+  <circle cx="83" cy="79.5" r="2.5" fill="#38bdf8"/>
+</svg>
