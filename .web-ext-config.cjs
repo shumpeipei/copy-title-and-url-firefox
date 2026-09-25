@@ -7,6 +7,7 @@ module.exports = {
     ".github",
     ".github/**",
     "検討仕様書.md",
+    "AMO_LISTING.md",
     "icons/icon.svg"
   ],
   build: {

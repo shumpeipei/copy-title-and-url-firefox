@@ -35,6 +35,11 @@ npx web-ext lint
 npx web-ext build
 ```
 
+## プライバシーポリシー
+
+[Privacy Policy](PRIVACY.md)
+
 ## ライセンス
 
 [MIT License](LICENSE)
+
