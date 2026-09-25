@@ -6,7 +6,7 @@ AMO のアドオン申請画面（Listing / Description）でコピー＆ペー�
 
 ## 基本情報
 
-- **アドオン名 (Name)**: `Copy Title and URL`
+- **アドオン名 (Name)**: `Simple Title & URL Copy`
 - **対象カテゴリ (Categories)**:
   - 主要カテゴリ: `タブ (Tabs)`
   - サブカテゴリ: `その他 (Other)` または `外観・デザイン (Appearance)` / `フィード、ニュース、ブログ`
