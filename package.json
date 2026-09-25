@@ -1,0 +1,14 @@
+{
+  "name": "copy-title-and-url-firefox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Copy Title and URL Firefox Extension",
+  "scripts": {
+    "lint": "web-ext lint",
+    "build": "web-ext build --overwrite-dest",
+    "start": "web-ext run"
+  },
+  "devDependencies": {
+    "web-ext": "^9.0.0"
+  }
+}

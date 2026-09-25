@@ -25,6 +25,16 @@ https://example.com/
 2. 「一時的な拡張機能を読み込む... (Load Temporary Add-on...)」をクリックします。
 3. 本リポジトリ内の `manifest.json` を選択します。
 
+## 開発・パッケージング
+
+```bash
+# 構文・権限チェック (web-ext lint)
+npx web-ext lint
+
+# AMO提出用 ZIP パッケージのビルド (web-ext-artifacts/ に生成)
+npx web-ext build
+```
+
 ## ライセンス
 
 [MIT License](LICENSE)
