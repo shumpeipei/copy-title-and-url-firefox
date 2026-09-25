@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Title and URL",
+  "version": "1.0.0",
+  "description": "開いているページのタイトルとURLをクリップボードにコピーします。",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "copy-title-url@local",
+      "strict_min_version": "109.0"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_title": "タイトルとURLをコピー"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+C"
+      },
+      "description": "タイトルとURLをコピー"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

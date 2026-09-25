@@ -1,0 +1,12 @@
+# Packages and archives
+*.zip
+*.xpi
+web-ext-artifacts/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
