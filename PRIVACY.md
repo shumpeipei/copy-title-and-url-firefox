@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Copy Title and URL** does not collect, transmit, store, or share any personal data or browsing activity.
+**Simple Title & URL Copy** does not collect, transmit, store, or share any personal data or browsing activity.
 
 ## Data Processing
 - When you activate the extension (via the toolbar button or keyboard shortcut), it accesses the active tab's title and URL strictly within your local browser.

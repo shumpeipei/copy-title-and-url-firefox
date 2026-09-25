@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Copy Title and URL",
+  "name": "Simple Title & URL Copy",
   "version": "1.0.0",
   "description": "開いているページのタイトルとURLをクリップボードにコピーします。",
   "browser_specific_settings": {

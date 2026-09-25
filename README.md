@@ -1,4 +1,4 @@
-# Copy Title and URL (Firefox Extension)
+# Simple Title & URL Copy (Firefox Extension)
 
 開いているページの「タイトル」と「URL」を、改行区切りの2行形式でクリップボードにコピーするシンプルな Firefox 拡張機能（Manifest V3）です。
 
